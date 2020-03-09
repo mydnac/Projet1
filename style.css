@@ -1,10 +1,35 @@
 /* Global CSS */
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 /* Header CSS */
-
-
+nav {
+    background-color: #daefe6;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color : white;
+    font-size: 35px;
+    margin-right: 10px;
+}
+nav a:hover {
+    background-color: white;
+    color:#daefe6;
+}
+#logohover:hover {
+       background-color:#daefe6;
+}
 
 
 /* Main CSS */
