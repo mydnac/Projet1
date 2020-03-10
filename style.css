@@ -131,7 +131,6 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 article{
     width: 40%;
@@ -174,18 +173,58 @@ ul li{
     margin-top: 40px;
 }
 div ul li {
-    margin-bottom: 2git staut0px;
+    margin-bottom: 20px;
 }
 .style_inscription{
     font-size: 1.3rem;
     margin-bottom: 45px;
 }
 
-
-.title-style{
-
-    text-align: center;
-    margin-top: 40px    ;
+/* Equipe */
+.equipe_section{
+    margin-bottom: 80px;
+    width: 100%;
+}
+.middle_img{
+    width: 100%;
+    height: auto;
+}
+.flex_equip{
+    display: flex;
+    justify-content: space-around;
+}
+figure{
+    width: 25%;
+}
+figure {
+    position: relative;
+    display: inline-block;
+    overflow: autogitgit ;
+    margin: 0;
+}
+.middle_img, figcaption {
+    transition: all .25s ease;
+}
+.middle_img {
+    display: block;
+}
+figcaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    background: #000;
+    background: rgba(0, 0, 0, .75);
+    color: #fff;
+    opacity: 0;
+}
+figure:hover .middle_img {
+    transform: scale(1.1);
+}
+figure:hover figcaption {
+    opacity: 1;
 }
 
 
