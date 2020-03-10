@@ -1,10 +1,5 @@
 /* Global CSS */
-<<<<<<< HEAD
-* {
-    margin: 0;
-    padding: 0;
-}
-=======
+
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +9,6 @@
 body{
     background-color: white;
 }
-
->>>>>>> feat/footer
 
 
 /* Header CSS */
@@ -39,6 +32,7 @@ nav a {
 nav a:hover {
     background-color: white;
     color:#daefe6;
+    text-decoration: underline;
 }
 #logohover:hover {
        background-color:#daefe6;
@@ -52,7 +46,7 @@ nav a:hover {
 
 /* Footer CSS */
 
-    /* Form Css */
+ /* Form Css */
 
 .fieldset-form{
     color: rgba(75, 68, 68, 0.411);
@@ -69,15 +63,8 @@ nav a:hover {
 
 
 
-@media
-
-
-
-
-
 /* Footer CSS */
 
-<<<<<<< HEAD
+
 /* Mobile Version */
-=======
->>>>>>> feat/footer
+
