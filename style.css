@@ -86,7 +86,21 @@ h3{
     font-weight: 800git;
 }
 
-
+/* Horaires et tarifs */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #b4cdc2;
+}
+th,td{
+    text-align: center;
+    height: 50px;
+}
+caption{
+    margin-bottom: 10px;
+}
 
 /* Footer CSS */
 
