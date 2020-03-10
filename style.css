@@ -83,16 +83,18 @@ article{
 }
 h3{
     margin-bottom: 15px;
-    font-weight: 800git;
+    font-weight: 800;
 }
 
 /* Horaires et tarifs */
 table {
-    width: 100%;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
     border-collapse: collapse;
 }
 table, th, td {
-    border: 1px solid #b4cdc2;
+    border: 2px solid #99aba2;
 }
 th,td{
     text-align: center;
@@ -100,6 +102,23 @@ th,td{
 }
 caption{
     margin-bottom: 10px;
+}
+.tfoot_left{
+    text-align: left;
+}
+ul li{
+    list-style: none;
+}
+.tarif_center{
+    text-align: center;
+    margin-top: 40px;
+}
+div ul li {
+    margin-bottom: 2git staut0px;
+}
+.style_inscription{
+    font-size: 1.3rem;
+    margin-bottom: 45px;
 }
 
 /* Footer CSS */
