@@ -2,10 +2,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
     background-color: white;
-
+}
 
 /* Header CSS */
 nav {
@@ -35,7 +36,55 @@ nav a:hover {
 
 
 /* Main CSS */
+main{
+    color:#9ebbaf;
+}
+/* Presentation */
+.first_section{
+    margin : auto 20px;
+}
+.title-style{
+    text-align:center;
+    margin: 50px 0px 50px 0px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.text_justify{
+    text-align: justify;
+    padding-bottom: 15px;
+}
+.h2_size{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+.general{
+    margin: 20px auto;
+}
+.little_img {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+.flex_presentation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
+}
+article{
+    width: 40%;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+.article_1, .article_3{
+    margin-right: 40px;
+}
+h3{
+    margin-bottom: 15px;
+    font-weight: 800git;
+}
 
 
 
@@ -58,7 +107,6 @@ nav a:hover {
 
 
 
-@media
 
 
 
