@@ -97,6 +97,7 @@ nav a:hover {
     background-color: white;
     color:#daefe6;
     text-decoration: underline;
+    
 }
 #logohover:hover {
     background-color:#daefe6;
@@ -213,9 +214,34 @@ div ul li {
     border-color: rgba(128, 128, 128, 0.281);
     border-style: solid ;
     border-width: 5px;
-    
-    
 }
+
+#textarea{
+
+    border-radius: 10px;
+}
+
+button{
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+#contact{
+    font-size: 1.3rem;
+
+}
+
+
 .map {
     display: flex;
     width: 100%;
@@ -228,6 +254,8 @@ div ul li {
 /* Footer CSS */
 
 footer{
+    color: #99aba2;
+    font-weight: bold;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -274,6 +302,23 @@ footer{
     .burgermenu {
         display: block; 
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #DAEFE6;
+        padding: 20px;
+        padding-bottom: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        border-color: rgba(128, 128, 128, 0.281);
+        border-width: 5px;
+    }
+    .div-footer{
+        padding: 5px;
+        text-align: center;
+    }
+
 
 }
 
