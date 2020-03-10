@@ -2,20 +2,21 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script src="projet1.js"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
+            <div class="burgermenu" id="burger"><img src="https://zupimages.net/up/20/11/rnhf.png" alt="menu"></div>
             <ul class="menudesktop">
-                <li> <a href="" id="logohover"><img src="https://zupimages.net/up/20/11/cow8.png" alt="logo" title="imagelogo"></a> </li>
-                <li><a href="#presentation"> Présentation</a></li>
-                <li><a href="#horaires"> Horaires/Tarifs</a></li>
-                <li><a href="#equipe"> Equipe</a></li>
-                <li><a href="#contact"> Contact</a></li>
+                <li> <a href="#presentation" id="logohover"><img src="https://zupimages.net/up/20/11/cow8.png" alt="logo" title="imagelogo"></a> </li>
+                <li><a href="#presentation" class="itemmenu"> Présentation</a></li>
+                <li><a href="#horaires" class="itemmenu"> Horaires/Tarifs</a></li>
+                <li><a href="#equipe" class="itemmenu"> Equipe</a></li>
+                <li><a href="#contact"class="itemmenu"> Contact</a></li>
             </ul>
         </nav>
+
         <div class="carousel"></div>
     </header>
 
@@ -28,8 +29,8 @@
             <section class="general">
                 <h2>Général</h2>
                 <p>L’association <strong>L'Espace Yoga </strong> propose des cours d'Hatha Yoga, d'Hastanga Yoga, de Yin Yoga et de Yoga prénatal et post-natal dans le quartier de Stalingrad. 
-            Association loi 1901 fondée en 2010, elle se veut absolument indépendante de toute pratique ou système religieux. 
-            Elle a été conçue dans le but d’enseigner la pratique du Yoga et de la Méditation, dans le respect de la tradition transmise par l’école du Tantra, organisme de formation situé dans la région Bordelaise, en Gironde.</p>
+                Association loi 1901 fondée en 2010, elle se veut absolument indépendante de toute pratique ou système religieux. 
+                Elle a été conçue dans le but d’enseigner la pratique du Yoga et de la Méditation, dans le respect de la tradition transmise par l’école du Tantra, organisme de formation situé dans la région Bordelaise, en Gironde.</p>
             </section>
             
             <section>
@@ -104,17 +105,7 @@
         </section>
         <section>
             <form class="form-style" >
-
-                <fieldset class="fieldset-form">
-        
-                    <legend id="contact">Contactez-nous!</legend>
-        
-                 <label for="name">Votre Nom: </label>
-                 <input type="text" placeholder="Nom">
-        
-                 <label for="email">Votre adresse mail: </label>
-                 <input type="text" placeholder="mail<form class="form-style" >
-
+   
                     <fieldset class="fieldset-form">
                 
                         <legend id="contact">Contactez-nous!</legend>
@@ -132,12 +123,10 @@
                 
                     </fieldset>
                 
-                </form>@exemple.com">
+                </form>
         
-                 <label for="message">Votre message: </label>
-                <textarea name="message" id="" cols="50" rows="20"></textarea>
-        
-                <button>Envoyer</button>
+            
+                
         
             </fieldset>
         
@@ -152,4 +141,5 @@
     </footer>
     
 </body>
+<script src="projet1.js"></script>
 </html>

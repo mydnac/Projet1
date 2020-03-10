@@ -9,6 +9,20 @@ body{
 }
 
 /* Header CSS */
+
+.burgermenu{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.burgermenu:hover{
+    cursor: pointer;
+    opacity : 65%;
+}
+.open-burger {
+    height: 140px;
+}
 .carousel{
 
 }
@@ -29,7 +43,7 @@ nav ul li {
 nav a {
     text-decoration: none;
     color : white;
-    font-size: 35px;
+    font-size: 26px;
     margin-right: 10px;
 }
 nav a:hover {
@@ -72,3 +86,12 @@ h1{
 
 
 /* Mobile Version */
+@media only screen and (max-width:751px)
+{
+    .itemmenu{
+        display: none;
+    }
+    .burgermenu {
+        display: block; 
+    }
+}
