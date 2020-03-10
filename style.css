@@ -12,6 +12,8 @@ body{
 
 .burgermenu{
     display: none;
+}
+#burger {
     position: absolute;
     top: 20px;
     right: 10px;
@@ -22,6 +24,9 @@ body{
 }
 .open-burger {
     height: 140px;
+}
+.displayMenu {
+    display: block !important;
 }
 .carrouselcontainer {
     padding-top: 80px;
@@ -74,6 +79,9 @@ nav {
     flex-direction: row;
     align-items: center;
 }
+#menumobile{
+    display: none;
+}
 nav ul li {
     list-style: none;
 }
@@ -94,10 +102,11 @@ nav a:hover {
 
 
 /* Main CSS */
-h1{
-    text-align: center;
-}
+
+
 /* Footer CSS */
+
+
 
  /* Form Css */
 
@@ -119,6 +128,7 @@ h1{
 /* Footer CSS */
 
 
+
 /* Mobile Version */
 @media only screen and (max-width:751px)
 {
@@ -128,4 +138,5 @@ h1{
     .burgermenu {
         display: block; 
     }
+    
 }
