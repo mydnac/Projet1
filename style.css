@@ -23,14 +23,51 @@ body{
 .open-burger {
     height: 140px;
 }
-.carousel{
-
+.carrouselcontainer {
+    padding-top: 80px;
 }
+#carrousel{
+    z-index: 1;
+    width: 80%; 
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 5px;
+    border: solid 2px #daefe6;
+}
+#carrousel figure {
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 25s slidy infinite;
+    
+}
+#carrousel figure img {
+    width: 20%; 
+    height: auto;
+    float: left;
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
 nav {
     background-color: #daefe6;
     position: fixed;
     display: flex;
     width: 100%;
+    z-index: 6;
 }
 .menudesktop {
     display: flex;
@@ -57,9 +94,6 @@ nav a:hover {
 
 
 /* Main CSS */
-main {
-    padding-top: 80px;
-}
 h1{
     text-align: center;
 }
