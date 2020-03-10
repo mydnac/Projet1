@@ -26,17 +26,14 @@ body{
     flex-direction: column;
     width: 80%;
     background-color: #DAEFE6;
-    border:2px solid rgba(29, 150, 29, 0.671)1);
+    border:2px solid rgba(29, 150, 29, 0.671,1);
     -moz-border-radius:8px;
     -webkit-border-radius:8px;	
     border-radius:8px;
     
 }
 
-.form-button{
 
-    font-style: ;
-}
 
 @media
 
