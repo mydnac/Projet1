@@ -102,11 +102,15 @@ nav a:hover {
     background-color:#daefe6;
 }
 
-
 /* Main CSS */
 
 main{
     color:#9ebbaf;
+}
+hr{
+    border: 1px solid #9ebbaf;;
+    text-align: center;
+    margin: 40px 150px 0px 150px;
 }
 /* Presentation */
 .first_section{
@@ -140,7 +144,6 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 article{
     width: 40%;
@@ -162,18 +165,18 @@ table {
     margin-right:15%;
     border-collapse: collapse;
 }
-table, th, td {
-    border: 2px solid #99aba2;
-}
 th,td{
+    border: 2px solid #99aba2;
     text-align: center;
     height: 50px;
 }
 caption{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .tfoot_left{
     text-align: left;
+    border: none;
+    padding-top: 10px;
 }
 ul li{
     list-style: none;
@@ -182,19 +185,62 @@ ul li{
     text-align: center;
     margin-top: 40px;
 }
-div ul li {
-    margin-bottom: 2git staut0px;
+td ul li {
+    margin-bottom: 10px;
 }
 .style_inscription{
     font-size: 1.3rem;
     margin-bottom: 45px;
 }
+div ul li {
+    margin-bottom: 10px;
+}
 
-
-.title-style{
-
-    text-align: center;
-    margin-top: 40px    ;
+/* Equipe */
+.equipe_section{
+    margin-bottom: 80px;
+    width: 100%;
+}
+.middle_img{
+    width: 100%;
+    height: auto;
+}
+.flex_equip{
+    display: flex;
+    justify-content: space-around;
+}
+figure{
+    width: 25%;
+}
+figure {
+    position: relative;
+    display: inline-block;
+    overflow: autogitgit ;
+    margin: 0;
+}
+.middle_img, figcaption {
+    transition: all .25s ease;
+}
+.middle_img {
+    display: block;
+}
+figcaption {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    background: #000;
+    background: rgba(0, 0, 0, .75);
+    color: #fff;
+    opacity: 0;
+}
+figure:hover .middle_img {
+    transform: scale(1.1);
+}
+figure:hover figcaption {
+    opacity: 1;
 }
 
  /* Form Css */
@@ -275,5 +321,31 @@ footer{
         display: block; 
     }
 
+/* Presentation */
+    .flex_presentation{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    article{
+        width:auto;
+    }
+    .article_1, .article_3{
+        margin-right: auto;
+    }
+
+/* Equipe */    
+    .flex_equip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }  
+    figure{
+        width: 75%;
+        margin-bottom: 40px;
+    } 
 }
+
+
 
