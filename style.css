@@ -68,7 +68,7 @@ body{
     75% { left: -300%; }
     95% { left: -300%; }
     100% { left: -400%; }
-  }
+}
 nav {
     background-color: #daefe6;
     position: fixed;
