@@ -94,10 +94,14 @@ nav a:hover {
     background-color:#daefe6;
 }
 
-
 /* Main CSS */
 main{
     color:#9ebbaf;
+}
+hr{
+    border: 1px solid #9ebbaf;;
+    text-align: center;
+    margin: 40px 150px 0px 150px;
 }
 /* Presentation */
 .first_section{
@@ -152,10 +156,8 @@ table {
     margin-right:15%;
     border-collapse: collapse;
 }
-table, th, td {
-    border: 2px solid #99aba2;
-}
 th,td{
+    border: 2px solid #99aba2;
     text-align: center;
     height: 50px;
 }
@@ -164,6 +166,8 @@ caption{
 }
 .tfoot_left{
     text-align: left;
+    border: none;
+    padding-top: 10px;
 }
 ul li{
     list-style: none;
@@ -172,12 +176,15 @@ ul li{
     text-align: center;
     margin-top: 40px;
 }
-div ul li {
-    margin-bottom: 20px;
+td ul li {
+    margin-bottom: 10px;
 }
 .style_inscription{
     font-size: 1.3rem;
     margin-bottom: 45px;
+}
+div ul li {
+    margin-bottom: 10px;
 }
 
 /* Equipe */
@@ -316,6 +323,8 @@ footer{
     .article_1, .article_3{
         margin-right: auto;
     }
+
+/* Equipe */    
     .flex_equip{
         display: flex;
         flex-direction: column;
@@ -324,6 +333,7 @@ footer{
     }  
     figure{
         width: 75%;
+        margin-bottom: 40px;
     }  
 
 }
