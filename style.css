@@ -25,10 +25,10 @@ body{
     top: 20px;
     right: 10px;
 }
-.burgermenu:hover{
+.burgermenu:hover {
     cursor: pointer;
     opacity : 65%;
-}git 
+}
 .open-burger {
     height: 140px;
 }
@@ -95,13 +95,12 @@ nav ul li {
 }
 nav a {
     text-decoration: none;
-    color : white;
+    color :#99aba2;
     font-size: 26px;
     margin-right: 20px;
 }
 nav a:hover {
-    background-color: white;
-    color:#daefe6;
+    color:white;
     text-decoration: underline;
     
 }
@@ -380,10 +379,6 @@ i{
 
     padding: 10px;
 }
-
-
-
-/* Footer CSS */
 
 
 
