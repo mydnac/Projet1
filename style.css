@@ -276,7 +276,7 @@ figure:hover figcaption {
 }
 
 button{
-    background-color: grey;
+    background-color:#99aba2;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -291,8 +291,14 @@ button{
     
 }
 
+button:hover{
+
+    opacity: 50%;
+}
+
 #contact{
     font-size: 1.3rem;
+    padding: 20px;
 
 }
 
@@ -360,6 +366,11 @@ footer a:hover{
     opacity: 50%;
     border-radius: 5px;
 
+}
+
+i{
+
+    padding: 10px;
 }
 
 
