@@ -114,7 +114,7 @@ main{
     color:#9ebbaf;
 }
 hr{
-    border: 1px solid;
+    border: 1px solid #9ebbaf;;
     text-align: center;
     margin: 40px 150px 0px 150px;
 }
@@ -166,6 +166,7 @@ h3{
 
 /* Horaires et tarifs */
 table {
+
     width:80%; 
     margin : 0 auto; 
     border-collapse: collapse;
@@ -249,7 +250,9 @@ figure:hover figcaption {
 }
 
  /* Formulaire de contact Css */
-
+.form-style{
+    margin: 0 auto;
+}
 .fieldset-form{
     color: rgba(75, 68, 68, 0.411);
     display: flex;
@@ -405,7 +408,10 @@ i{
         padding: 5px;
         text-align: center;
     }
+    .p-footer{
 
+        padding: 0;
+        }
 
 /* Presentation */
     .flex_presentation{
@@ -420,8 +426,8 @@ i{
         margin-right: auto;
     }
 
-/* Tableau */  
-    td, th{
+    /*Tableau*/
+    td, th {
         font-size: 12px;
     }
     table{
