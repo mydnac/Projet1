@@ -404,14 +404,17 @@ i{
         border-color: rgba(128, 128, 128, 0.281);
         border-width: 5px;
     }
+
+    .p-footer{
+
+        margin: -15px;
+        }
+        
     .div-footer{
         padding: 5px;
         text-align: center;
     }
-    .p-footer{
-
-        padding: 0;
-        }
+   
 
 /* Presentation */
     .flex_presentation{
