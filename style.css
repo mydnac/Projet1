@@ -167,7 +167,7 @@ h3{
 
 /* Horaires et tarifs */
 table {
-<
+
     width:80%; 
     margin : 0 auto; 
     border-collapse: collapse;
@@ -413,7 +413,10 @@ i{
         padding: 5px;
         text-align: center;
     }
+    .p-footer{
 
+        padding: 0;
+        }
 
 /* Presentation */
     .flex_presentation{
@@ -428,6 +431,13 @@ i{
         margin-right: auto;
     }
 
+    /*Tableau*/
+    td, th {
+        font-size: 12px;
+    }
+    table{
+        width: 90%;
+    }
 /* Equipe */    
     .flex_equip{
         display: flex;
