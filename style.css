@@ -12,8 +12,13 @@ body{
 
 /* Header CSS */
 
-.burgermenu{
+.burgermenu {
     display: none;
+    margin: auto 0;
+}
+.burgermenu ul li a {
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 #burger {
     position: absolute;
@@ -83,6 +88,7 @@ nav {
 }
 #menumobile{
     display: none;
+    margin-left:10px;
 }
 nav ul li {
     list-style: none;
@@ -91,7 +97,7 @@ nav a {
     text-decoration: none;
     color : white;
     font-size: 26px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 nav a:hover {
     background-color: white;
