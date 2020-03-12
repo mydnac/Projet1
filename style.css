@@ -25,10 +25,10 @@ body{
     top: 20px;
     right: 10px;
 }
-.burgermenu:hover{
+.burgermenu:hover {
     cursor: pointer;
     opacity : 65%;
-}git 
+}
 .open-burger {
     height: 140px;
 }
