@@ -167,9 +167,9 @@ h3{
 
 /* Horaires et tarifs */
 table {
-    width:70%; 
-    margin-left:15%; 
-    margin-right:15%;
+<
+    width:80%; 
+    margin : 0 auto; 
     border-collapse: collapse;
 }
 th,td{
